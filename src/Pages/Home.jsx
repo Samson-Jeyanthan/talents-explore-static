@@ -1,6 +1,6 @@
 import React from "react";
 import { About, Hero, ImgSection1, PolicyCenter, VM } from "../Contents";
-import { HeroNavbar } from "../Components";
+import { Footer, HeroNavbar } from "../Components";
 const Home = () => {
   return (
     <>
@@ -10,6 +10,7 @@ const Home = () => {
       <ImgSection1 />
       <VM />
       <PolicyCenter />
+      <Footer />
     </>
   );
 };

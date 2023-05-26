@@ -1,0 +1,10 @@
+export { default as TAC_1 } from "./TAC_1";
+export { default as TAC_2 } from "./TAC_2";
+export { default as TAC_3 } from "./TAC_3";
+export { default as TAC_4 } from "./TAC_4";
+export { default as TAC_5 } from "./TAC_5";
+export { default as TAC_6 } from "./TAC_6";
+export { default as TAC_7 } from "./TAC_7";
+export { default as TAC_8 } from "./TAC_8";
+export { default as TAC_9 } from "./TAC_9";
+export { default as TAC_10 } from "./TAC_10";

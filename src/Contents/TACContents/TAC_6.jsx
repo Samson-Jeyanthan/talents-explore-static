@@ -1,5 +1,6 @@
 import React from "react";
 import { PointsWrapper, Parah, SubTitle, PointsIcon } from "../ContentsStyles";
+import { ParahScrollLink } from "../../Pages/PagesStyles";
 
 const TAC_6 = () => {
   return (
@@ -63,17 +64,20 @@ const TAC_6 = () => {
       </Parah>
       <Parah>
         We will notify you in advance in order to allow you time to download
-        your data in-app (more information about how to do this is available
-        here), unless it is not appropriate for us to do so or we reasonably
-        believe that continued access to your account will cause damage to us,
+        your data in-app
+        {/* (more information about how to do this is available
+        here),  */}
+        unless it is not appropriate for us to do so or we reasonably believe
+        that continued access to your account will cause damage to us,
         Affiliates, our users or other third parties, or we are legally
         prevented from doing so.
       </Parah>
       <Parah>
         If you think we have made a mistake in suspending or terminating your
         account, you can appeal through the appeal functionalities provided on
-        the Platform or by clicking here and we will review our decision and
-        decide again.
+        the Platform or by clicking{" "}
+        <ParahScrollLink to="contactUs">here</ParahScrollLink> and we will
+        review our decision and decide again.
       </Parah>
       <Parah>
         For the avoidance of doubt, if we suspend or terminate your account, or

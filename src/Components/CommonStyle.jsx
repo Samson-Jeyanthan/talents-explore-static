@@ -13,7 +13,7 @@ export const ScrollButton = styled(LinkS)`
   border: ${({ mode }) =>
     mode ? "1px solid var(--black)" : "1px solid var(--l-gray)"};
   position: absolute;
-  z-index: 3;
+  z-index: 13;
   bottom: 5%;
   right: 5%;
   color: ${({ mode }) => (mode ? "var(--black)" : "var(--l-gray)")};

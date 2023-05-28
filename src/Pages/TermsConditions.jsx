@@ -32,8 +32,7 @@ const TermsConditions = () => {
         Talents Explore in respect of the Platform described below. Please read
         these Terms carefully. Please also read our{" "}
         <ParahLink to="/privacy-policy">Privacy Policy</ParahLink>,{" "}
-        <ParahLink to="/cookies-policy"></ParahLink>
-        Cookies Policy and{" "}
+        <ParahLink to="/cookies-policy">Cookies Policy </ParahLink> and{" "}
         <ParahLink to="/community-guidelines">Community Guidelines.</ParahLink>
       </Paragraph>
       <Paragraph>

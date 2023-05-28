@@ -5,9 +5,7 @@ import { VscDebugBreakpointData } from "react-icons/vsc";
 
 export const PointsWrapper = styled.div`
   display: flex;
-  justify-content: flex-start;
   margin-left: 5rem;
-  display: flex;
   gap: 0.5rem;
   font-size: 16px;
   margin-bottom: 0.5rem;

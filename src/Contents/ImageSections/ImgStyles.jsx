@@ -139,3 +139,12 @@ export const ImgSectionOneContent = styled.h1`
     margin-bottom: 5rem;
   }
 `;
+
+// styles for the section two
+
+export const HerSliderWrapper = styled.section`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+`;

@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { BiPlus } from "react-icons/bi";
 import { Link } from "react-router-dom";
+import { Link as LinkS } from "react-scroll";
 
 export const PagesWrapper = styled.main`
   display: flex;
@@ -29,7 +30,6 @@ export const PageWrapper = styled.main`
   gap: 1rem;
   @media screen and (max-width: 600px) {
     padding: 0.2rem;
-    border: 1px solid red;
     font-size: 14px;
   }
 `;
@@ -95,5 +95,11 @@ export const Answer = styled.div`
 `;
 
 export const ParahLink = styled(Link)`
-  color: #0d0dffd7;
+  color: #ff2146f0;
+`;
+
+export const ParahScrollLink = styled(LinkS)`
+  color: #ff2146f0;
+  text-decoration: none;
+  cursor: pointer;
 `;

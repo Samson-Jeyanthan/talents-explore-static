@@ -1,5 +1,6 @@
 import React from "react";
 import { PointsWrapper, Parah, SubTitle, PointsIcon } from "../ContentsStyles";
+import { ParahLink, ParahScrollLink } from "../../Pages/PagesStyles";
 
 const TAC_4 = () => {
   return (
@@ -31,9 +32,10 @@ const TAC_4 = () => {
       </Parah>
       <Parah>
         Information on how we use data that we collect about you can be found in
-        our Privacy Policy and Cookies Policy. These do not form part of this
-        contract, but are important documents which we strongly recommend that
-        you read.
+        our <ParahLink to="/privacy-policy">Privacy Policy</ParahLink> and{" "}
+        <ParahLink to="/cookies-policy">Cookies Policy.</ParahLink> These do not
+        form part of this contract, but are important documents which we
+        strongly recommend that you read.
       </Parah>
       <Parah>
         In short: You do not have to pay for your use of our Platform but, in
@@ -45,16 +47,19 @@ const TAC_4 = () => {
         You can use some basic features of the Platform without having an
         account. If you use the Platform without an account, then these Terms
         will still apply to such use and we will still process your personal
-        data in accordance with our Privacy Policy.
+        data in accordance with our{" "}
+        <ParahLink to="/privacy-policy">Privacy Policy.</ParahLink>
       </Parah>
       <Parah>
         To access the full functionality of the Platform, you must create an
-        account with us. We may offer different types of accounts. When you
-        create an account, your account details will sync across the Platform,
-        including across each Talents Explore app. For example, when you create
-        an account via Talents Explore website, you will be able to access any
-        other Talents Explore apps available in your country, using that
-        account. Your account details, content and settings (including your
+        account with us. We may offer different types of accounts.{" "}
+      </Parah>
+      <Parah>
+        When you create an account, your account details will sync across the
+        Platform, including across each Talents Explore app. For example, when
+        you create an account via Talents Explore website, you will be able to
+        access any other Talents Explore apps available in your country, using
+        that account. Your account details, content and settings (including your
         privacy settings), and any changes you make, will sync across each
         Talents Explore app.
       </Parah>
@@ -62,14 +67,16 @@ const TAC_4 = () => {
         When you create an account to access and use the Platform, you must
         provide accurate and up-to-date information about yourself (such as your
         date of birth). You agree to maintain and promptly update your details
-        if they change. See our Help Center for information on opening an
-        account.
+        if they change.{" "}
+        <ParahScrollLink to="contactUs">Contact us </ParahScrollLink> for
+        information on opening an account.
       </Parah>
       <Parah>
         It is important that you take reasonable steps to keep your account
         password confidential and that you do not disclose it to any third
         party. If you know or suspect that any third party knows your password
-        or has accessed your account, please let us know straight away here.
+        or has accessed your account, please let us know straight away{" "}
+        <ParahScrollLink to="contactUs">here.</ParahScrollLink>
       </Parah>
       <Parah>
         In short: Your account is important. Keep it safe. Keep your details up
@@ -103,8 +110,8 @@ const TAC_4 = () => {
         provided to you from time to time.
       </PointsWrapper>
       <Parah>
-        See our Help Center for further information about the features of the
-        Platform and how to use them.
+        <ParahScrollLink to="contactUs">Contact us</ParahScrollLink> for further
+        information about the features of the Platform and how to use them.
       </Parah>
       <Parah>The permission we give to you:</Parah>
       <PointsWrapper>
@@ -134,10 +141,11 @@ const TAC_4 = () => {
       </Parah>
       <SubTitle>What You Can’t Do on the Platform</SubTitle>
       <Parah>
-        Our Community Guidelines apply to everyone and to all content on the
-        Platform. If you want to use the Platform, you can’t create, post,
-        share, link to or otherwise interact with content in breach of our
-        Community Guidelines.
+        Our{" "}
+        <ParahLink to="/community-guidelines"> Community Guidelines</ParahLink>{" "}
+        apply to everyone and to all content on the Platform. If you want to use
+        the Platform, you can’t create, post, share, link to or otherwise
+        interact with content in breach of our Community Guidelines.
       </Parah>
       <Parah>In any event, you must not use the Platform to:</Parah>
       <PointsWrapper>
@@ -212,12 +220,15 @@ const TAC_4 = () => {
       </PointsWrapper>
       <Parah>
         If you post content on the Platform about a brand or a product in return
-        for any payment or other incentive, you must comply with the Branded
-        Content Policy. You must use appropriate disclosures including any
-        functionality the Platform provides to ensure that any posts that are,
-        for example, sponsored are clear. For more details about Branded Content
-        on the Platform, see here. In addition, in relation to any such content
-        you must not:
+        for any payment or other incentive, you must comply with the{" "}
+        <ParahLink to="/branded-content-policy">
+          Branded Content Policy
+        </ParahLink>
+        . You must use appropriate disclosures including any functionality the
+        Platform provides to ensure that any posts that are, for example,
+        sponsored are clear. For more details about Branded Content on the
+        Platform, <ParahLink to="/branded-content-policy">see here</ParahLink>.
+        In addition, in relation to any such content you must not:
       </Parah>
       <PointsWrapper>
         <PointsIcon />
@@ -250,9 +261,14 @@ const TAC_4 = () => {
       </PointsWrapper>
       <Parah>
         We respect copyright and other intellectual property rights. Please read
-        our Intellectual Property Policy. You can report suspected infringements
-        of intellectual property rights on the Platform here:
+        our{" "}
+        <ParahLink to="/intellectual-property-policy">
+          Intellectual Property Policy
+        </ParahLink>
+        .{" "}
       </Parah>
+      {/* You can report suspected infringements of intellectual property rights on
+      the Platform here:
       <PointsWrapper>
         <PointsIcon />
         Copyright: https://www.talentsexplore.com/legal/report/Copyright
@@ -260,7 +276,7 @@ const TAC_4 = () => {
       <PointsWrapper>
         <PointsIcon />
         Trademark: https://www.talentsexplore.com/legal/report/Trademark
-      </PointsWrapper>
+      </PointsWrapper> */}
       <Parah>
         You can report suspected illegal content or content which otherwise
         breaches these Terms or our Community Guidelines through the reporting
@@ -290,10 +306,14 @@ const TAC_4 = () => {
         Explore App.
       </PointsWrapper>
       <PointsWrapper>
-        <PointsIcon /> We may remove or restrict access to any content,
-        including yours, if we reasonably believe (i) it is in breach of these
-        Terms or our Community Guidelines; or (ii) it causes harm to us,
-        Affiliates, our users or other third parties.
+        <PointsIcon />
+        <div>
+          We may remove or restrict access to any content, including yours, if
+          we reasonably believe (i) it is in breach of these Terms or our{" "}
+          <ParahLink to="/community-guidelines">Community Guidelines</ParahLink>
+          ; or (ii) it causes harm to us, Affiliates, our users or other third
+          parties.
+        </div>
       </PointsWrapper>
       <PointsWrapper>
         <PointsIcon /> If we remove or restrict access to content, we will

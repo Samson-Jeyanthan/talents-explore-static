@@ -1,5 +1,6 @@
 import React from "react";
 import { PointsWrapper, Parah, PointsIcon } from "../ContentsStyles";
+import { ParahLink } from "../../Pages/PagesStyles";
 
 const TAC_3 = () => {
   return (
@@ -13,26 +14,42 @@ const TAC_3 = () => {
       </Parah>
       <PointsWrapper>
         <PointsIcon />
-        Music Terms: These terms apply when you post or live stream content on
-        the Platform that includes music.
+        <div>
+          <ParahLink to="/music-terms">Music Terms :</ParahLink> These terms
+          apply when you post or live stream content on the Platform that
+          includes music.
+        </div>
       </PointsWrapper>
       <PointsWrapper>
         <PointsIcon />
-        Intellectual Property Policy: This policy applies to all content on the
-        Platform that is protected by intellectual property rights.
+        <div>
+          <ParahLink to="/intellectual-property-policy">
+            Intellectual Property Policy :
+          </ParahLink>{" "}
+          This policy applies to all content on the Platform that is protected
+          by intellectual property rights.
+        </div>
       </PointsWrapper>
       <PointsWrapper>
         <PointsIcon />
-        Branded Content Policy: This policy applies when you post content on the
-        Platform about a brand or a product in return for any payment or other
-        incentive.
+
+        <div>
+          <ParahLink to="/intellectual-property-policy">
+            Branded Content Policy :
+          </ParahLink>{" "}
+          This policy applies when you post content on the Platform about a
+          brand or a product in return for any payment or other incentive.
+        </div>
       </PointsWrapper>
       <PointsWrapper>
         <PointsIcon />
-        Business Terms: These terms apply if you use the Platform for purposes
-        within your trade, business, craft or profession, including managing
-        your own business through your account on the Platform or administering
-        an account on behalf of a business.
+        <div>
+          <ParahLink to="/business-terms">Business Terms :</ParahLink> These
+          terms apply if you use the Platform for purposes within your trade,
+          business, craft or profession, including managing your own business
+          through your account on the Platform or administering an account on
+          behalf of a business.
+        </div>
       </PointsWrapper>
       <Parah>
         In short: These Terms cover your use of the Platform. There may be some

@@ -8,7 +8,8 @@ const TAC_10 = () => {
       <Parah>
         In some countries, the law requires us to provide additional regulatory
         information and/or contact points within the country, even though we may
-        not be physically present there. You can find this information here
+        not be physically present there.
+        {/* You can find this information here */}
       </Parah>
     </>
   );

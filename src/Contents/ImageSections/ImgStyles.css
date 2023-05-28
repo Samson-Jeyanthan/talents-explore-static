@@ -1,0 +1,17 @@
+.heroSlider {
+  width: 80%;
+  height: 80vh;
+  -o-object-fit: cover;
+  object-fit: cover;
+  border-radius: 15px;
+  border: 1px solid red;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+
+.bgImgStyle {
+  width: 100%;
+  height: 80vh;
+  border-radius: 15px;
+}

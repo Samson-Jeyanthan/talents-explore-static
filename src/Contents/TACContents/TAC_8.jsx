@@ -1,5 +1,6 @@
 import React from "react";
 import { Parah } from "../ContentsStyles";
+import { ParahLink } from "../../Pages/PagesStyles";
 
 const TAC_8 = () => {
   return (
@@ -17,8 +18,16 @@ const TAC_8 = () => {
       </Parah>
       <Parah>
         If you are resident in the EEA, you can also raise the dispute with an
-        alternative dispute resolution body via the EU Commission’s Online
-        Dispute Resolution (ODR) Platform.
+        alternative dispute resolution body via the{" "}
+        <a
+          href="/https://ec.europa.eu/consumers/odr/main/?event=main.home2.show"
+          style={{
+            color: " #ff2146f0",
+            cursor: " pointer",
+          }}
+        >
+          EU Commission’s Online Dispute Resolution (ODR) Platform.
+        </a>
       </Parah>
       <Parah>
         In short: We hope we do not get into a dispute but, if we do, there are

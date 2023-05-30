@@ -32,7 +32,7 @@ const TermsConditions = () => {
         Talents Explore in respect of the Platform described below. Please read
         these Terms carefully. Please also read our{" "}
         <ParahLink to="/privacy-policy">Privacy Policy</ParahLink>,{" "}
-        <ParahLink to="/cookies-policy">Cookies Policy </ParahLink> and{" "}
+        <ParahLink to="/cookies-policy">Cookies Policy</ParahLink> and{" "}
         <ParahLink to="/community-guidelines">Community Guidelines.</ParahLink>
       </Paragraph>
       <Paragraph>
@@ -42,7 +42,10 @@ const TermsConditions = () => {
       </Paragraph>
       {TACQandA.map((qa) => {
         return (
-          <QAWrapper key={qa.id}>
+          <QAWrapper
+            key={qa.id}
+            id={qa.id === 9 ? (qa.id = "contactUs") : (qa.id = qa.id)}
+          >
             <Question
               onClick={() => handleClick(qa.id)}
               isActive={qaOpen[qa.id]}
@@ -54,8 +57,8 @@ const TermsConditions = () => {
               <m.div
                 initial={{ opacity: 0, y: "-1%" }}
                 animate={{ opacity: 1, y: "0%" }}
-                exit={{ opacity: 0, scaleY: 0 }}
-                transition={{ duration: 0.19, ease: "easeIn" }}
+                exit={{ opacity: 0 }}
+                transition={{ duration: 0.2, ease: "easeInOut" }}
                 key={qa.id}
               >
                 <Answer>{qa.answer}</Answer>

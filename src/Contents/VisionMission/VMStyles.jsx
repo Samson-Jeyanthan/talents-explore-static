@@ -1,13 +1,14 @@
 import styled from "styled-components";
-import { BsArrowRight } from "react-icons/bs";
+import { MdOutlineArrowForwardIos } from "react-icons/md";
 
 export const VMPageWrapper = styled.section`
   padding: 5rem 2rem;
-  min-height: 100vh;
+  /* min-height: 80vh; */
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  /* align-items: center;
+  justify-content: center; */
+  border: 1px solid red;
   @media screen and (max-width: 410px) {
     padding: 4rem 1rem;
   }
@@ -84,12 +85,16 @@ export const VMImage = styled.img`
   }
 `;
 
-export const VMButton = styled(BsArrowRight)`
+export const VMButton = styled(MdOutlineArrowForwardIos)`
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-size: 3rem;
   font-weight: 1rem;
   border-radius: 50%;
   border: 1px solid var(--l-gray);
-  padding: 0.5rem;
+  padding: 0.8rem;
+  padding-left: 0.9rem;
   cursor: pointer;
   &:hover {
     background-color: var(--l-gray);

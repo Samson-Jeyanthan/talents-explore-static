@@ -76,8 +76,10 @@ const TAC_6 = () => {
         If you think we have made a mistake in suspending or terminating your
         account, you can appeal through the appeal functionalities provided on
         the Platform or by clicking{" "}
-        <ParahScrollLink to="contactUs">here</ParahScrollLink> and we will
-        review our decision and decide again.
+        <ParahScrollLink smooth={true} duration={500} to="contactUs">
+          here
+        </ParahScrollLink>{" "}
+        and we will review our decision and decide again.
       </Parah>
       <Parah>
         For the avoidance of doubt, if we suspend or terminate your account, or

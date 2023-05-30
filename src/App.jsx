@@ -7,6 +7,7 @@ import {
   CommunityGuide,
   Intellectual,
 } from "./Pages";
+import { Footer } from "./Components";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           element={<Intellectual />}
         />
       </Routes>
+      <Footer />
     </Router>
   );
 }

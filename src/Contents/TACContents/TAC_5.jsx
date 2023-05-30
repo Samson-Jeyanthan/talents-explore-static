@@ -81,7 +81,10 @@ const TAC_5 = () => {
         If you are an EEA-based consumer, then EEA consumer laws provide you
         with a legal guarantee covering the Platform. If you have any questions
         about your legal guarantee, please contact us{" "}
-        <ParahScrollLink to="contactUS">here</ParahScrollLink>.
+        <ParahScrollLink smooth={true} duration={500} to="contactUS">
+          here
+        </ParahScrollLink>
+        .
       </Parah>
       <Parah>
         In short: We will always seek to provide you with a great and safe user

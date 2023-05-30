@@ -28,7 +28,7 @@ const Intellectual = () => {
         or other intellectual property rights.
       </Paragraph>
       <QAWrapper>
-        <Question style={{ background: "var(--l-gray)" }}>
+        <Question style={{ background: "var(--l-gray)", cursor: "default" }}>
           Copyright <PlusButton />
         </Question>
         <Answer>
@@ -228,7 +228,7 @@ const Intellectual = () => {
         </Answer>
       </QAWrapper>
       <QAWrapper>
-        <Question style={{ background: "var(--l-gray)" }}>
+        <Question style={{ background: "var(--l-gray)", cursor: "default" }}>
           Trademark <PlusButton />{" "}
         </Question>
         <Answer>
@@ -309,7 +309,7 @@ const Intellectual = () => {
         </Answer>
       </QAWrapper>
       <QAWrapper>
-        <Question style={{ background: "var(--l-gray)" }}>
+        <Question style={{ background: "var(--l-gray)", cursor: "default" }}>
           General Note
           <PlusButton />
         </Question>

@@ -84,21 +84,42 @@ export const PC = [
   },
 ];
 
+export const OtherPC = [
+  {
+    id: 1,
+    link: "/intellectual-property-policy",
+    title: "Intellectual Property Policy",
+    desc: "Protecting original creations and respecting ownership rights in our platform.",
+  },
+  {
+    id: 2,
+    link: "/cookies-policy",
+    title: "Cookies Policy",
+    desc: "Explaining how we use cookies to enhance user experience and analyze website traffic.",
+  },
+  {
+    id: 3,
+    link: "/branded-content-policy",
+    title: "Branded Content Policy",
+    desc: "Guidelines and regulations for creating and promoting branded content on our platform.",
+  },
+];
+
 export const TACQandA = [
   {
     id: 0,
-    question: "1. Who you are contracting with",
+    question: "1. Who You are Contracting With",
     answer: <TAC_1 />,
   },
   {
     id: 1,
-    question: "2. What services are covered by these Terms",
+    question: "2. What Services are Covered by These Terms",
     answer: <TAC_2 />,
   },
   {
     id: 2,
     question:
-      "3. Additional terms and policies - depending on the features you use",
+      "3. Additional Terms and Policies - Depending on the Features You Use",
     answer: <TAC_3 />,
   },
   {
@@ -108,22 +129,22 @@ export const TACQandA = [
   },
   {
     id: 4,
-    question: "5. What we promise to you",
+    question: "5. What We Promise to You",
     answer: <TAC_5 />,
   },
   {
     id: 5,
-    question: "6. Suspending or ending our relationship",
+    question: "6. Suspending or Ending Our Relationship",
     answer: <TAC_6 />,
   },
   {
     id: 6,
-    question: "7. Changes to these Terms or the Platform",
+    question: "7. Changes to These Terms or the Platform",
     answer: <TAC_7 />,
   },
   {
     id: 7,
-    question: "8. Resolving disputes",
+    question: "8. Resolving Disputes",
     answer: <TAC_8 />,
   },
   {

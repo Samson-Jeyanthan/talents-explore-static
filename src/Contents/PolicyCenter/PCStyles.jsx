@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import { Link as LinkS } from "react-router-dom";
-import { BsArrowRight } from "react-icons/bs";
+import { Link, Link as LinkS } from "react-router-dom";
+import { MdOutlineArrowForwardIos } from "react-icons/md";
 
 export const PCWrapper = styled.main`
   width: 100%;
@@ -140,11 +140,71 @@ export const PCCardDesc = styled.p`
   }
 `;
 
-export const PCArrow = styled(BsArrowRight)`
+export const PCArrow = styled(MdOutlineArrowForwardIos)`
   font-size: 2.2rem;
   font-weight: 1rem;
   border-radius: 50%;
   border: 1px solid var(--black);
   padding: 0.5rem;
   cursor: pointer;
+`;
+
+export const OtherPCWrapper = styled.section`
+  display: flex;
+  gap: 1rem;
+  @media screen and (max-width: 900px) {
+    flex-direction: column;
+  }
+`;
+
+export const OtherPCCard = styled(Link)`
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+  border: 1px solid var(--gray);
+  border-radius: 20px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  color: var(--black);
+  text-decoration: none;
+  :hover {
+    background-color: var(--l-gray);
+  }
+  @media screen and (max-width: 900px) {
+    margin: 0;
+  }
+`;
+
+export const OtherPCTitle = styled.div`
+  font-size: 36px;
+  font-weight: 500;
+  height: 9rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--black);
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  @media screen and (max-width: 1000px) {
+    font-size: 30px;
+  }
+  @media screen and (max-width: 900px) {
+    height: max-content;
+  }
+  @media screen and (max-width: 600px) {
+    font-size: 28px;
+  }
+`;
+
+export const OtherPcDesc = styled.p`
+  font-size: 16px;
+  @media screen and (max-width: 900px) {
+    text-align: center;
+  }
+  @media screen and (max-width: 600px) {
+    font-size: 14px;
+  }
 `;

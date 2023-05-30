@@ -68,15 +68,19 @@ const TAC_4 = () => {
         provide accurate and up-to-date information about yourself (such as your
         date of birth). You agree to maintain and promptly update your details
         if they change.{" "}
-        <ParahScrollLink to="contactUs">Contact us </ParahScrollLink> for
-        information on opening an account.
+        <ParahScrollLink smooth={true} duration={500} to="contactUs">
+          Contact us{" "}
+        </ParahScrollLink>{" "}
+        for information on opening an account.
       </Parah>
       <Parah>
         It is important that you take reasonable steps to keep your account
         password confidential and that you do not disclose it to any third
         party. If you know or suspect that any third party knows your password
         or has accessed your account, please let us know straight away{" "}
-        <ParahScrollLink to="contactUs">here.</ParahScrollLink>
+        <ParahScrollLink smooth={true} duration={500} to="contactUs">
+          here.
+        </ParahScrollLink>
       </Parah>
       <Parah>
         In short: Your account is important. Keep it safe. Keep your details up
@@ -110,8 +114,11 @@ const TAC_4 = () => {
         provided to you from time to time.
       </PointsWrapper>
       <Parah>
-        <ParahScrollLink to="contactUs">Contact us</ParahScrollLink> for further
-        information about the features of the Platform and how to use them.
+        <ParahScrollLink smooth={true} duration={500} to="contactUs">
+          Contact us
+        </ParahScrollLink>{" "}
+        for further information about the features of the Platform and how to
+        use them.
       </Parah>
       <Parah>The permission we give to you:</Parah>
       <PointsWrapper>

@@ -4,7 +4,7 @@ import { AboutHeading, AboutP, AboutWrapper } from "./AboutStyles";
 const About = () => {
   return (
     <AboutWrapper id="aboutUs">
-      <AboutHeading>Who We Are & What We Do?</AboutHeading>
+      <AboutHeading>Our Story</AboutHeading>
       <AboutP>
         Talents Explore was established in the UK in 2022. Talents Explore is a
         platform for talents to showcase their creative work and gain

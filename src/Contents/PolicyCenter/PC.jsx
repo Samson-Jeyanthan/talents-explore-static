@@ -1,5 +1,9 @@
 import React from "react";
 import {
+  OtherPCCard,
+  OtherPCTitle,
+  OtherPCWrapper,
+  OtherPcDesc,
   PCArrow,
   PCCard,
   PCCardContent,
@@ -12,7 +16,7 @@ import {
   PCWContentWrapper,
   PCWrapper,
 } from "./PCStyles";
-import { PC } from "../../Data";
+import { OtherPC, PC } from "../../Data";
 
 const PolicyCenter = () => {
   return (
@@ -43,6 +47,20 @@ const PolicyCenter = () => {
             </PCCard>
           </PCCardWrapper>
         ))}
+        <PCTitle style={{ marginTop: "2rem" }}>Other Policies</PCTitle>
+        <PCSubtitle>
+          Explore our comprehensive set of policies that govern various aspects
+          of Talents Explore, ensuring a safe and inclusive platform for all
+          users.
+        </PCSubtitle>
+        <OtherPCWrapper>
+          {OtherPC.map((item) => (
+            <OtherPCCard to={item.link} key={item.id}>
+              <OtherPCTitle>{item.title}</OtherPCTitle>
+              <OtherPcDesc>{item.desc}</OtherPcDesc>
+            </OtherPCCard>
+          ))}
+        </OtherPCWrapper>
       </PCWContentWrapper>
     </PCWrapper>
   );

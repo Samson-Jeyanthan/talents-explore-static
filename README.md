@@ -1,4 +1,6 @@
-This project is in live please check by clicking this link [Talents Explore](https://talentsexplore.com/)
+# Live Preview
+
+This project is in live, please check by clicking this link [Talents Explore](https://talentsexplore.com/)
 
 # Getting Started with Create React App
 
